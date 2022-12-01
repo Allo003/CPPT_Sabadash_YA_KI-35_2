@@ -1,6 +1,17 @@
 import java.io.*;
 import java.util.*;
-public class Main {
+/** Клас Lab2 реалізує приклад програми до лабораторної роботи №2
+ * @author Sabadash Yurii KI-35
+ * @version 1.0
+ * @since version 1.0
+ */
+
+public class Lab2 {
+    /** Статичний метод main є точкою входу в програму*
+     * @param args
+     * @throws FileNotFoundException
+     */
+
     public static void main(String[] args) throws FileNotFoundException {
 
         int nColumns;
