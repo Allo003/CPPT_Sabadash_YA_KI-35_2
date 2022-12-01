@@ -1,3 +1,4 @@
+
 class CalcException extends ArithmeticException
 {
     public CalcException(){}

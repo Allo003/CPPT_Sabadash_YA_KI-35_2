@@ -1,3 +1,4 @@
+
 import java.io.IOException;
 
 public class Main {
@@ -12,13 +13,6 @@ public class Main {
       file.writeResFile("Result.txt",7);
       file.readResFile("Result.txt");
       System.out.println("Res="+file.getResult());
-
-
-
-
-
-
-
 
     }
 }

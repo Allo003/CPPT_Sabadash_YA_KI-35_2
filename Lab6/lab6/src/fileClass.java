@@ -1,3 +1,4 @@
+
 import java.io.*;
 import java.util.Scanner;
 
@@ -6,13 +7,15 @@ public class fileClass {
     private double x;
 
 
-
     public void calc(double x){
         Calculate object = new Calculate();
         this.x = x;
         result = object.calc(x);
     }
-    public double getResult(){return result;}
+
+    public double getResult(){
+        return result;
+    }
 
 
     public void writeResFile(String filename,int n) throws FileNotFoundException{
@@ -25,6 +28,7 @@ public class fileClass {
         file.close();
 
     }
+
     public void readResFile(String filename)
     {
         try{
@@ -44,6 +48,7 @@ public class fileClass {
         }
 
     }
+
     public void writeResFileBinary(String filename) throws IOException {
         DataOutputStream f = new DataOutputStream(new FileOutputStream(filename));
        f.writeDouble(result);
